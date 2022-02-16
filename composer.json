@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "abbas-bz/maps-api",
+    "description": "A Package to work with Map Providers",
     "keywords": [
-        ":vendor_name",
+        "Abbas-bz",
         "laravel",
-        ":package_slug"
+        "maps-api"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/abbas-bz/maps-api",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Abbas Bakhshizadeh",
+            "email": "abbasbkz@gmail.com",
             "role": "Developer"
         }
     ],
@@ -34,13 +34,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Abbas-bz\\MapsApi\\": "src",
+            "Abbas-bz\\MapsApi\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Abbas-bz\\MapsApi\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -54,10 +54,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Abbas-bz\\MapsApi\\MapsApiServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "MapsApi": "Abbas-bz\\MapsApi\\Facades\\MapsApi"
             }
         }
     },

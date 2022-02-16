@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Abbas-bz\MapsApi\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class MapsApiCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'maps-api';
 
     public $description = 'My command';
 
